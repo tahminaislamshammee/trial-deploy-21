@@ -4,7 +4,7 @@ const data = {
             id: '1',
             name: 'headphone',
             price: 999,
-            image: 'https://i.ibb.co/YczY7zY/laptop.jpg',
+            image: 'https://i.ibb.co/YczY7zY/laptop.JPG',
         },
         {
             id: '2',
