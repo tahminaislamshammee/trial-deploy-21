@@ -8,7 +8,7 @@ const RoutesComponent = ({productItems, cartItems, handleAddProduct, handleRemov
     return (
         <div>
            <Routes>
-               <Route path='/' element={<Products productItems={productItems} handleAddProduct={handleAddProduct}/>}/>
+               <Route path='/trial-deploy-21' element={<Products productItems={productItems} handleAddProduct={handleAddProduct}/>}/>
                <Route path='/signup' element={<SignUp/>}/>
                <Route path='/cart' element={
                <Cart cartItems={cartItems} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct}/>
