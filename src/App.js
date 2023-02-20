@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Router basename='/trial-deploy-21'>
         <Header cartItems={cartItems}/>
         <RoutesComponent  productItems={productItems} cartItems={cartItems}  handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct}/>
       </Router>
